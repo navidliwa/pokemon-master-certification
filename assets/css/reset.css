@@ -1,0 +1,13 @@
+/* CSS Reset */
+
+/* Reset the margin and padding of all elements */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reset the font family and size of all elements */
+  * {
+    font-family: sans-serif;
+    font-size: 16px;
+  }
