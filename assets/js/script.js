@@ -96,7 +96,26 @@ var questions = [
 var SCORE_POINTS = 100
 var MAX_QUESTIONS = 10
 
+var totalTimer = 300;
+var timerText = document.querySelector('#timer');
+var intervalId;
+
+startTimer = () => {
+    totalTimer = 300;
+    timerText.innerText = totalTimer;
+    intervalId = setInterval(function(){
+        totalTimer--;
+        timerText.innerText = totalTimer;
+        if(totalTimer === 0){
+            clearInterval(intervalId);
+            
+            window.location.assign('/end.html')
+        }
+    }, 1000);
+}
+
 startGame = () => {
+    startTimer();
     questionCounter = 0
     score = 0
     availableQuestions = [...questions]
