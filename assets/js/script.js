@@ -37,7 +37,7 @@ var questions = [
         answer: 3,
     },
     {
-        question: 'What were the 5th generation of games?',
+        question: 'What were the 4th generation of games?',
         choice1: 'Diamond, Pearl, and Platinum',
         choice2: 'Leaf Green and Fire Red',
         choice3: 'Ruby, Sapphire, and Emerald',
