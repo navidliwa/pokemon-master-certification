@@ -120,6 +120,7 @@ input::placeholder {
     margin-bottom: 3rem;
     width: 100%;
     outline: none;
+    border-radius: 4px;
 }
 
 #end-text {
